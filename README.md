@@ -1,2 +1,7 @@
-# code-examples
-some code samples was made by solving puzzles at codewars
+# Code Examples
+
+![codewars][badge]
+
+
+
+[badge]: https://www.codewars.com/users/Oziabr/badges/large codewars badge
