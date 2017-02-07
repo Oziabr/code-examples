@@ -1,7 +1,13 @@
 # Code Examples
 
-![codewars][badge]
+
+[Codewars Profile][codewars link]
+
+![codewars][codewars badge]
+
+### Notable examples
 
 
 
-[badge]: https://www.codewars.com/users/Oziabr/badges/large "codewars badge"
+[codewars link]: https://www.codewars.com/users/Oziabr
+[codewars badge]: https://www.codewars.com/users/Oziabr/badges/large "codewars badge"
