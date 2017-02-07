@@ -7,6 +7,10 @@
 
 ### Notable examples
 
+#### 8 kyu
+- [basic mathematical operations](basic-mathematical-operations.js)
+
+    how can you make it even smaller? type conversion to the resque )
 
 
 [codewars link]: https://www.codewars.com/users/Oziabr
