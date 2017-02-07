@@ -5,9 +5,8 @@ function navigate(n, roads, start, finish) {
   if (start == finish) return [start]
   var result, routes = [[0, start]]
   while (n-- && routes.length) {
-    routes = routes.reduce(function (res, rt, i) {
-      return res.concat(
-        roads
+    routes = routes.reduce((res, rt, i) =>
+      res.concat(roads
         .filter(r => r.from == rt[rt.length-1])
         .map(function (r) {
           var nr = rt.concat(r.to)
@@ -15,7 +14,7 @@ function navigate(n, roads, start, finish) {
           return nr
         })
       )
-    }, []).filter(function (rt) {
+    , []).filter(rt => {
       if (result && rt[0] > result[0]) return false
       if (finish != rt[rt.length-1]) return true
       result = result || rt
